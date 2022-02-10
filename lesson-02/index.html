@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Lesson 1</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1></h1>
+        <h2 class="title">
+          Timeline
+        </h2>
+        <section>
+          Let's dissect the animiation shown in the previous lesson.
+          By attaching the animations to a timeline we get more control over them.
+          For instance - we can build something quite simple that reverse the animations.
+        </section>
+        <section class="flex flex-col">
+          <h2>Example</h2>
+          <button id="play" class="run">Play</button>
+          <button id="reverse" class="run">Reverse</button>
+          <div class="box translate-x-300 bg-orchid-crayola"></div>
+          <div class="box translate-x-150 bg-heliotrope"></div>
+          <div
+            class="box translate-x-500 translate-y--500 bg-vivid-violet"
+          ></div>
+          <div class="box translate-y--500 bg-aquamarine"></div>
+          <div class="box translate-x-500 bg-beige"></div>
+        </section>
+      </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

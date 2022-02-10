@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Lesson 4</title>
+  </head>
+  <body>
+    <main>
+      <article class="bg-plum p-2">
+        <h1></h1>
+        <h2 class="title">Preparing for more complex animations</h2>
+        <section>
+          It can be quite confusing to animate classes. You have probably
+          noticed that all squares get animated because they have the box class.
+          It's better to just assign an id to each box and add them to the
+          animation as elements in an array. Let's not animate based on
+          css-classes (style) but based on elements. It's a preference, and
+          sometimes you want to animate everything that is '.green' or '.box'
+          but it can be confusing if you change the color of a box and the
+          animation suddenly changes. I think box no 5 (from the top) is a great
+          example here. We probably want to change the color of that box because
+          it's the same as the background color - making it hard to see. If we
+          remove the `bg-beige` class in favour of something else the animation
+          will be lost as a side effect. A neat bonus is that the markup will be
+          cleaner.
+        </section>
+        <section class="flex flex-col">
+          <h2>Example (animating classes)</h2>
+          <div class="flex items-center gap-1">
+            <button id="play" class="small">Play</button>
+            <button id="pause" class="small">Pause</button>
+            <button id="resume" class="small">Resume</button>
+            <button id="reverse" class="small">Reverse</button>
+            <button id="restart" class="small">Restart</button>
+          </div>
+          <div id="box1" class="box bg-orchid-crayola"></div>
+          <div id="box2" class="box bg-heliotrope"></div>
+          <div id="box3" class="box bg-vivid-violet"></div>
+          <div id="box4" class="box bg-aquamarine"></div>
+          <div id="box5" class="box bg-beige"></div>
+        </section>
+      </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

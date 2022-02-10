@@ -1,0 +1,61 @@
+:root {
+  --orchid-crayola: #ffb2e6ff;
+  --heliotrope: #d972ffff;
+  --vivid-violet: #8447ffff;
+  --aquamarine: #8cffdaff;
+  --beige: #ffffe8ff;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--beige);
+}
+
+main {
+  margin: 2rem;
+}
+
+article {
+  margin: 2rem;
+}
+button {
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.bg-orchid-crayola {
+  background-color: var(--orchid-crayola);
+}
+.bg-heliotrope {
+  background-color: var(--heliotrope);
+}
+.bg-vivid-violet {
+  background-color: var(--vivid-violet);
+}
+.bg-aquamarine {
+  background-color: var(--aquamarine);
+}
+.bg-beige {
+  background-color: var(--beige);
+}
+.bg-plum {
+  background-color: plum;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}

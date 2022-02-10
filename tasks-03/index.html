@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Lesson 3</title>
+  </head>
+  <body>
+    <main>
+      <article class="bg-plum p-2">
+        <h1></h1>
+        <h2 class="title">More Timeline Controls</h2>
+        <section>
+          The manipulation of the timeline is not based on order of execution -
+          it's just a defeault. By adding an argument we can specify where in
+          the timeline the animation should go. You can also add tags to certain
+          times, making them easier to reference.
+        </section>
+        <section class="flex flex-col">
+          <h2>Example</h2>
+          <div class="flex items-center gap-1">
+            <button id="play" class="small">Play</button>
+            <button id="pause" class="small">Pause</button>
+            <button id="resume" class="small">Resume</button>
+            <button id="reverse" class="small">Reverse</button>
+            <button id="restart" class="small">Restart</button>
+          </div>
+          <div class="box translate-x-300 bg-orchid-crayola"></div>
+          <div class="box translate-x-150 bg-heliotrope"></div>
+          <div
+            class="box translate-x-500 translate-y--500 bg-vivid-violet"
+          ></div>
+          <div class="box translate-y--500 bg-aquamarine"></div>
+          <div class="box translate-x-500 bg-beige"></div>
+        </section>
+      </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
