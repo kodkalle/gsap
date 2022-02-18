@@ -59,3 +59,14 @@ button {
 .justify-between {
     justify-content: space-between;
 }
+
+.lesson {
+  background-color: paleturquoise;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.task {
+  background-color: plum;
+  border-radius: 2rem;
+  padding: 2rem;
+}
